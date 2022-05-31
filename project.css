@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto:wght@500&display=swap');
+
+body{
+    /* height: 100vh; */
+    background-image: url(/pictures/girl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: unset;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: auto 10px;
+}
+li:hover {
+    /* border: 1px solid rgb(240, 0, 180); */
+    background-color: rgb(242, 6, 223);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.4s ease-in-out all;
+}
+.search{
+    color: rgb(240, 0, 180);
+}
+
+.contact{
+    border-radius: 50px;
+    /* background-color: violet; */
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+}
+.bar{
+    padding-bottom: 7px;
+    font-size: 17px;
+    color: turquoise;
+}
+h1{
+    color: white;
+    padding-top: 80px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    padding-left: 30px;
+    padding-bottom: -40px;
+    margin-top: -20px;
+}
+
+.rhym{
+    padding-left: 30px;
+    color: rgb(6, 6, 46);
+    margin-top: -10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.content{
+    position: relative;
+    bottom: 20px;
+}
+
+.link{
+    padding-left: 40px;
+    bottom: 20px;
+    position: relative;
+}
+.alink{
+    display: inline-block;
+    border-radius: 50px;
+    border:1px solid white;
+    background: none;
+    height: 35px;
+    width: 150px;
+    transition: 0.2s ease-in-out all;
+
+}
+.myguy{
+    color: black;
+    text-decoration: none;
+}
+
+.alink:hover{
+    background-color: turquoise;
+}
+.blink{
+    border: none;
+    background: none;
+}
+
+.icon{
+    opacity: 0;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+.text{
+    display: inline-block;
+    transition: 0.2s ease-in-out all;
+}
+
+.alink:hover .text{
+    transform: translateX(-5px);
+}
+.alink:hover .icon{
+    transform: translateX(7px);
+    opacity: 1;
+}
+
+.ashrab{
+    position: absolute;
+    right: 30px;
+    bottom: 200px;
+    width: 320px;
+}
+
+.lorem{
+    text-align: left;
+    padding-left: 0px;
+    font-size: 15px;
+}
+.facebook{
+    position: absolute;
+    right: 75px;
+    bottom: 170px;
+}
+.instagram{
+    position: absolute;
+    right: 70px;
+    bottom: 140px;
+}
+.twitter{
+    position: absolute;
+    right: 70px;
+    bottom: 110px;
+}
+.username{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    bottom: 55px;
+    right: 37px;
+    transform: rotate(90deg);
+}
+.chevron{
+    position: absolute;
+    right: 30px;
+    bottom: 1px;
+    font-size: 19px;
+    color: white;
+}
+
+
+.one{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/picture/dance-time-stylish-men-woman-dancing-hip-hop-bright-clothes-green-background-dance-hall-neon-light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: black; */
+
+}
+.two{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/picture/dance-time-stylish-men-woman-dancing-hip-hop-bright-clothes-green-background-dance-hall-neon-light.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* background-color: grey; */
+}
