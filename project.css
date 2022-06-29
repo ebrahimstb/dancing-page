@@ -2,13 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto:wght@500&display=swap');
 
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
 body{
-    /* height: 100vh; */
+    height: 100vh;
     background-image: url(/pictures/girl.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: unset;
+    /* overflow: scroll; */
 }
 
 nav{
@@ -86,9 +92,11 @@ p{
 .content{
     position: relative;
     bottom: 20px;
+    font-size: 4vmin;
 }
 
 .link{
+    color: black;
     padding-left: 40px;
     bottom: 20px;
     position: relative;
@@ -147,6 +155,7 @@ p{
     font-size: 15px;
 }
 .facebook{
+    color: white;
     position: absolute;
     right: 75px;
     bottom: 170px;
@@ -157,6 +166,7 @@ p{
     bottom: 140px;
 }
 .twitter{
+    /* color: white; */
     position: absolute;
     right: 70px;
     bottom: 110px;
@@ -174,28 +184,60 @@ p{
     right: 30px;
     bottom: 1px;
     font-size: 19px;
-    color: white;
+    /* color: white; */
 }
 
 
-.one{
-    height: 100vh;
-    width: 100%;
-    background-image: url(/picture/dance-time-stylish-men-woman-dancing-hip-hop-bright-clothes-green-background-dance-hall-neon-light.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* background-color: black; */
 
-}
-.two{
-        height: 100vh;
-        width: 100%;
-        background-image: url(/picture/dance-time-stylish-men-woman-dancing-hip-hop-bright-clothes-green-background-dance-hall-neon-light.jpg);
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    body{
+        height: 60vh;
+        background-image: url(/pictures/girl.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
-        /* background-color: grey; */
+        overflow: unset;
+        width: 100%;
+        overflow: scroll;
+    }
+    nav{
+        background-color: aliceblue;
+        width: 100%;
+    }
+    nav li{
+        color: black;
+    }
+    .ashrab{
+            font-size: 50px;
+            position: absolute;
+            justify-content: center;
+            margin-top: -200px;
+            bottom: 1100px;
+            width: 520px;
+    }
+    .lorem{
+        font-size: 30px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .twitter{
+        bottom: 1100px;
+        color: white;
+    } 
+    .facebook{
+        bottom: 1080px;
+    } 
+    .instagram{
+        bottom: 1060px;
+    } 
+    .chevron{
+        bottom: 1100px;
+        display: none !important;
+    }
+    .username{
+        bottom: 1000px;
+    }
 }
