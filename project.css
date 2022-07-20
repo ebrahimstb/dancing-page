@@ -25,6 +25,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 
 ul{
@@ -186,7 +187,10 @@ p{
     font-size: 19px;
     /* color: white; */
 }
-
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 
 
 
